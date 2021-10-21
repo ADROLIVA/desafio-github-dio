@@ -16,5 +16,5 @@
 -  cd .. - Volta um nível
 -  git config --global user.email "email" - identifica o autor, quem gerou o commit
 -  git config --global user.name "name" - Um nickname
--  ​
+-  mv (algo) ./ (outro lugar)
 
