@@ -1,6 +1,6 @@
 # Comandos Importantes no Git/Github
 
--  git init - Esse comando cria um repositório vazio ou transforma uma pasta que você já tem, e que não está com controle de versão, em um repositório.
+-  **git init** - Esse comando cria um repositório vazio ou transforma uma pasta que você já tem e que não está com controle de versão, em um repositório.
 -  git clone <https://url-do-link> - O Git clone é um comando para baixar o código-fonte existente de um repositório remoto
 -  git remote rm origin - Quando você clonar um repositório, o código é copiado para a o seu computador e continua linkado ao original, como foi explicado lá na descrição do que é um sistema distribuído. Se você quiser desvincular a sua cópia do original, rode o comando.
 -  git push -u (remote nome-da-branch) - Este comando criará uma *branch *local. Para upar a nova *branch* para o repositório remoto
@@ -12,4 +12,9 @@
 -  git push -u origin (nome-do-branch) - se seu branch for criado recentemente, você também precisará fazer upload do branch com esse comando
 -  git pull <remote> - Este comando é uma combinação de *git fetch *(baixa as alterações do repositório remoto mas não mescla elas com o seu)* *e* git merge* (que mescla tudo junto), o que significa que, quando usamos o **git pull**, ele recebe as atualizações do repositório remoto (**git fetch**) e aplica imediatamente as alterações mais recentes no seu local (**git merge**).
 -  Git remote add origin (link) - Adiciona a origem do repositório remoto
+-  ls -a - Mostra arquivos ocultos
+-  cd .. - Volta um nível
+-  git config --global user.email "email" - identifica o autor, quem gerou o commit
+-  git config --global user.name "name" - Um nickname
+-  ​
 
