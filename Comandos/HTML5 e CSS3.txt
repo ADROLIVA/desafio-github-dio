@@ -6,17 +6,15 @@ Desde 91 surgiram 5 versões
 
 Tudo dentro de um arquivo html é um elemento
 
-
-
-## <!DOCTYPE html> 
+#### <!DOCTYPE html>
 
 Apenas diz ao navegador o que você está escrevendo
 
-## < html >
+#### < html >
 
 Tudo que diz respeito ao conteúdo está dentro desse elemento
 
-## < head >
+####< head >
 
 Vamos ter metainformações (informações que o navegador necessita, buscador necessita, etc...)
 
@@ -26,19 +24,19 @@ Ex:
 
 <title></title>
 
-##  < /head >
+####< /head >
 
 Fechamento do elemento head
 
-##  < body >
+####< body >
 
 Onde vai ficar o conteúdo da página
 
-## < /dody >
+####< /dody >
 
 Fechamento do elemento body
 
-## < /html >
+####< /html >
 
 Fechamento do html
 
@@ -46,27 +44,27 @@ Fechamento do html
 
 # Semântica
 
-## < Section >
+####< Section >
 
 Representa uma seção genérica de conteúdo, como uma lista de artigos.
 
-## < Header >
+####< Header >
 
 Poder ser o cabeçalho da página ou de parte dela.
 
-## < Article >
+####< Article >
 
 Representa um conteúdo relevante dentro da página.
 
-## < Aside >
+####< Aside >
 
 Conteúdo relacionado ao conteúdo principal da pág.
 
-## < Footer >
+####< Footer >
 
 Rodapé da pág ou de parte dela. Pode ser o rodapé de um article ou de uma section
 
-## < h1 > - < h6 >
+####< h1 > - < h6 >
 
 Tamanhos. Única regra: somente um H1 por pág.
 
@@ -74,25 +72,25 @@ Tamanhos. Única regra: somente um H1 por pág.
 
 # Textos e links
 
-## < h1 > Título da página < /h1 >
+####< h1 > Título da página < /h1 >
 
-##< h2 >Título da seção < /h2 >
+####< h2 >Título da seção < /h2 >
 
-## < h3 > Título de artigo < /h3 >
+####< h3 > Título de artigo < /h3 >
 
-##< p > Conteúdo do artigo < /p >
+####< p > Conteúdo do artigo < /p >
 
-##< a > Link < /a >
+####< a > Link < /a >
 
 Interliga vários conteúdos na Web
 
-###< a href="linkedin.com/in/vilaboim" >Linkedin < /a >
+####< a href="linkedin.com/in/vilaboim" >Linkedin < /a >
 
-### < a href="mailto:lucas@vilaboima.com">E-mail< /a >	
+####< a href="mailto:lucas@vilaboima.com">E-mail< /a >
 
 Hiperlink para onde a âncora está apontando, pode ser uma pág no meu site ou um site externo, ele também aponta para emails e telefones usandos os prefixos mailto e o tell respectivamente...
 
-### < a target="_blanck">link< /a >
+####< a target="_blanck">link< /a >
 
 Mostra como o nosso link será aberto. O exemplo acima se refere a abrir o link em uma nova aba.
 
@@ -100,19 +98,42 @@ Mostra como o nosso link será aberto. O exemplo acima se refere a abrir o link 
 
 É um dos elementos sem tags de fechamento
 
-## < img >
+####< img >
 
-## < img src="img/avatar.jpg" >
+####< img src="img/avatar.jpg" >
 
 Esse elemento source é obrigatório. Ele guarda o caminho da imagem
 
-## < img alt="foto de Adrielson Oliveira" >
+####< img alt="foto de Adrielson Oliveira" >
 
 Elemento alt não é obrigatório, mas é altamente recomendado, pois ele mostra a descrição da foto e leitores de tela usam a descrição para mostrar para os usuários o que  a imagem significa.
 
+####ul
+
+Nesse caso a ordem dos itens não é importante:
+
+item 1
+
+item 2
+
+####ol
+
+Nesse caso a ordem é importante:
+
+1. item 1
+2. item 3
+
+####li
+
+Item da lista
 
 
 
+# CSS3
+
+Em 96 foi criada a linguagem de estilo conhecida como CSS.
+
+Se resume em você criar regras de estilos para elementos ou grupos de elementos.
 
 
 
