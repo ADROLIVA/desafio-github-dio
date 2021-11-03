@@ -1,0 +1,126 @@
+# HTML
+
+Criado em 1991 pelo Tim Berners-Lee
+
+Desde 91 surgiram 5 versões
+
+Tudo dentro de um arquivo html é um elemento
+
+
+
+## <!DOCTYPE html> 
+
+Apenas diz ao navegador o que você está escrevendo
+
+## < html >
+
+Tudo que diz respeito ao conteúdo está dentro desse elemento
+
+## < head >
+
+Vamos ter metainformações (informações que o navegador necessita, buscador necessita, etc...)
+
+Ex: 
+
+<meta>
+
+<title></title>
+
+##  < /head >
+
+Fechamento do elemento head
+
+##  < body >
+
+Onde vai ficar o conteúdo da página
+
+## < /dody >
+
+Fechamento do elemento body
+
+## < /html >
+
+Fechamento do html
+
+
+
+# Semântica
+
+## < Section >
+
+Representa uma seção genérica de conteúdo, como uma lista de artigos.
+
+## < Header >
+
+Poder ser o cabeçalho da página ou de parte dela.
+
+## < Article >
+
+Representa um conteúdo relevante dentro da página.
+
+## < Aside >
+
+Conteúdo relacionado ao conteúdo principal da pág.
+
+## < Footer >
+
+Rodapé da pág ou de parte dela. Pode ser o rodapé de um article ou de uma section
+
+## < h1 > - < h6 >
+
+Tamanhos. Única regra: somente um H1 por pág.
+
+
+
+# Textos e links
+
+## < h1 > Título da página < /h1 >
+
+##< h2 >Título da seção < /h2 >
+
+## < h3 > Título de artigo < /h3 >
+
+##< p > Conteúdo do artigo < /p >
+
+##< a > Link < /a >
+
+Interliga vários conteúdos na Web
+
+###< a href="linkedin.com/in/vilaboim" >Linkedin < /a >
+
+### < a href="mailto:lucas@vilaboima.com">E-mail< /a >	
+
+Hiperlink para onde a âncora está apontando, pode ser uma pág no meu site ou um site externo, ele também aponta para emails e telefones usandos os prefixos mailto e o tell respectivamente...
+
+### < a target="_blanck">link< /a >
+
+Mostra como o nosso link será aberto. O exemplo acima se refere a abrir o link em uma nova aba.
+
+# Imagens
+
+É um dos elementos sem tags de fechamento
+
+## < img >
+
+## < img src="img/avatar.jpg" >
+
+Esse elemento source é obrigatório. Ele guarda o caminho da imagem
+
+## < img alt="foto de Adrielson Oliveira" >
+
+Elemento alt não é obrigatório, mas é altamente recomendado, pois ele mostra a descrição da foto e leitores de tela usam a descrição para mostrar para os usuários o que  a imagem significa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
